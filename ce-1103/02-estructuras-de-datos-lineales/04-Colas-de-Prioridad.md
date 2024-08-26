@@ -12,7 +12,7 @@ public interface IPriorityQueue {
 }
 ```
 
-- **Encolar (enqueue)**: Cuando un elemento se añade a la cosa, se mantiene el orden de acuerdo a su prioridad, reorganizando los elementos si es necesario.
+- **Encolar (enqueue)**: Cuando un elemento se añade a la cola, se mantiene el orden de acuerdo a su prioridad, reorganizando los elementos si es necesario.
 - **Desencolar (dequeue)**: Se elimina el elemento con mayor prioridad primero.
 - **Tope (front)**: Permite ver el elemento con mayor prioridad sin desencolarlo.
 
@@ -29,7 +29,7 @@ Las colas de proridad se pueden implementar de muchas maneras:
 - Con listas enlazadas
 - Con montículos (heaps)
 
-Más adelante en el curso, veremos la implementación con heap. Por ahora, vamos a ver una implementación con listas enlazadas.
+Más adelante en el curso, veremos la implementación con heaps. Por ahora, vamos a ver una implementación con listas enlazadas.
 
 ```java
 public class LinkedListPriorityQueue implements IPriorityQueue {
